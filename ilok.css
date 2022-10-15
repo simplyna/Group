@@ -1,0 +1,69 @@
+.home{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color:black;
+    text-shadow: 3px 3px 3px #FFF;
+    font-style: oblique;
+    font-size: 100px;
+}
+.home-tab{background-image:url(https://media.tenor.com/zvWdei-o1BIAAAAM/anime.gif);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.news{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color:black;
+  text-shadow: 3px 3px 3px #FFF;
+  font-style: oblique;
+  font-size: 100px;
+}
+.home1{
+  color:black;
+  text-shadow: 3px 3px 3px #FFF;
+  font-display: italic, bold;
+  font-size: 25px;
+}
+.home2{
+  color:black;
+  text-shadow: 3px 3px 3px #FFF;
+  font-display: italic, bold;
+  font-size: 25px;
+}
+.home3{
+  color:black;
+  text-shadow: 3px 3px 3px #FFF;
+  font-display: italic, bold;
+  font-size: 25px;
+  text-align:justify;
+}
+.headline1{
+  text-align: start;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 3px 3px 3px rgb(5, 4, 4);
+    font-style: oblique;
+    font-size: 100px;
+}
+.about-tab{background-image:url(https://media2.houstonpress.com/hou/imager/u/original/11457937/library.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.about{
+  color:gold;
+  text-shadow: 3px 3px 3px rgb(0, 0, 0);
+  font-display: italic, bold;
+  font-size: 35px;
+  text-align:center;
+  stroke:white;
+}
+
+.button1{
+  font-size: 30px;
+  margin-left: 60px;
+  margin-bottom: 5000px;
+
+}

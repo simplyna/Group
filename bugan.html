@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="ilok.css">
+    <title>Time Management</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: coral;}
+#About {background-color: orange;}
+</style>
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, 'darkblue')">Home</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+
+<div id="Home" class="tabcontent home-tab">
+  <h1 class="home" >Time Management</h1>
+  <p class="home1">Time management is essential in so many aspects of work. It is essential to make work more productive and efficient. It is important that students should learn time management to be able to adapt to any kinds of situation. It is not just students that need to learn, but also adults. As early as now students should develop this skill before college.
+    <p class="home2">The Meaning of Time Management
+        In our daily life, we have got only twenty-four hours in a day. Therefore we cannot do everything in one day. This creates limitations in our everyday work. In order to manage work, social life and sleep, division of time is important.</p>
+        <p class="home3">You should write your tasks in a schedule. In order to live a happy and peaceful life socializing is important. Too much workload can make a person ill. So, give your mind a little rest. Spending time with family can help you with this. Moreover, the main purpose to work is to fulfill the needs of the family. Since the fulfillment of needs is important. Which makes a person happy.</p>
+  
+</div>
+
+
+
+<div id="About" class="tabcontent about-tab">
+  <h3 class="headline1">About</h3>
+  <p class="about">I am Kyle Nolan S. Cortes and my partner for this project is Mary Zhairene Lanticse. We created this website so that students like me and Mary can learn how to develop the important skill which is time management. As you all know from the home page, time management is important to do work productively and effectively. I hope that you learned alot from this website and enjoy your day!</p>
+  <button class="button1">Click here</button>
+</div>+980
+
+
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html>
